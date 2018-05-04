@@ -15,5 +15,5 @@
     
     
   注意：Maven搭建一个Spring项目，遇到错误：Java.lang.ClassNotFoundException: org.springframework.web.servlet.DispatcherServlet，
-可能是因为没有把maven依赖注入项目。
+可能是因为没有把maven依赖注入项目。检查maven依赖是否导入到项目中了，项目右键—->properties—–>Deployment Assembly，点击“Add” 。选择java build path entries—>next ，再选择maven 依赖注入。
 拓展：可以用来做简单的页面跳转，加入jdbc可以查询数据库显示。
