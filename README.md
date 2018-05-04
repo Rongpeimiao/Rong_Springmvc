@@ -4,7 +4,7 @@
     1、选择create a simple project（...），下一步
 	2、Group id 输入src包名，Artifact id 输入项目名称，完成。
 二 把maven项目变为动态网站
-   1、右击项目properties ，在maven下面project facets中操作变为动态网站。
+   1、右击项目properties ，在project facets中操作变为动态网站。
 三 搭建spring项目 
     1、配置maven依赖，配置pom.xml写入srpingmvc相关org.springframework： 
     2、maven依赖导入到项目 
